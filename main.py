@@ -1,9 +1,12 @@
 from encrypt import encrypt
 from decrypt import decrypt
+from art import logo
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 game_on = True
+
+print(logo)
 
 while game_on:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
